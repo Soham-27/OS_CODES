@@ -1,0 +1,234 @@
+(base) oslab-19@oslab19-OptiPlex-5060:~$ pwd
+/home/oslab-19
+(base) oslab-19@oslab19-OptiPlex-5060:~$ mkdir 33187
+(base) oslab-19@oslab19-OptiPlex-5060:~$ cd 33187
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ mkdir oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ mkdir osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~$ cd 33187/oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ touch os1
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ touch os2
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ cat os1 os2 > os3
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ ls
+os1  os2  os3
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ touch os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls
+osdirectory  oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls osdirectory
+os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls oslab
+os1  os2  os3
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cp os4 /home/oslab-19/33187/oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls osdirectory
+os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls oslab
+os1  os2  os3  os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ touch os5
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls osdirectory
+os4  os5
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls oslab
+os1  os2  os3  os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ mv os5 /home/oslab-19/33187/oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls osdirectory
+os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls oslab
+os1  os2  os3  os4  os5
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ rm os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/osdirectory$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ rmdir osdirectory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls
+oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ ls oslab
+os1  os2  os3  os4  os5
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd 
+(base) oslab-19@oslab19-OptiPlex-5060:~$ locate os5
+/home/oslab-19/anaconda3/pkgs/ncurses-6.3-h5eee18b_3/share/terminfo/a/altos5
+/home/oslab-19/anaconda3/share/terminfo/a/altos5
+/opt/lampp/share/terminfo/a/altos5
+/snap/gnome-3-28-1804/194/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-3-28-1804/194/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-3-28-1804/194/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-3-28-1804/194/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-3-28-1804/194/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-3-28-1804/194/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-3-28-1804/194/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-3-28-1804/194/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-3-28-1804/198/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-3-28-1804/198/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-3-28-1804/198/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-3-28-1804/198/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-3-28-1804/198/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-3-28-1804/198/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-3-28-1804/198/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-3-28-1804/198/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-3-34-1804/90/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-3-34-1804/90/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-3-34-1804/90/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-3-34-1804/90/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-3-34-1804/90/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-3-34-1804/90/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-3-34-1804/90/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-3-34-1804/90/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-3-34-1804/93/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-3-34-1804/93/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-3-34-1804/93/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-3-34-1804/93/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-3-34-1804/93/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-3-34-1804/93/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-3-34-1804/93/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-3-34-1804/93/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-3-38-2004/140/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-3-38-2004/140/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-3-38-2004/140/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-3-38-2004/140/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-3-38-2004/140/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-3-38-2004/140/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-3-38-2004/140/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-3-38-2004/140/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-3-38-2004/143/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-3-38-2004/143/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-3-38-2004/143/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-3-38-2004/143/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-3-38-2004/143/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-3-38-2004/143/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-3-38-2004/143/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-3-38-2004/143/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-42-2204/132/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-42-2204/132/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-42-2204/132/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-42-2204/132/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-42-2204/132/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-42-2204/132/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-42-2204/132/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-42-2204/132/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/gnome-42-2204/141/usr/share/libwacom/intuos5-m.tablet
+/snap/gnome-42-2204/141/usr/share/libwacom/intuos5-s.tablet
+/snap/gnome-42-2204/141/usr/share/libwacom/intuos5-touch-l.tablet
+/snap/gnome-42-2204/141/usr/share/libwacom/intuos5-touch-m.tablet
+/snap/gnome-42-2204/141/usr/share/libwacom/intuos5-touch-s.tablet
+/snap/gnome-42-2204/141/usr/share/libwacom/layouts/intuos5-l.svg
+/snap/gnome-42-2204/141/usr/share/libwacom/layouts/intuos5-m.svg
+/snap/gnome-42-2204/141/usr/share/libwacom/layouts/intuos5-s.svg
+/snap/google-cloud-cli/231/platform/bundledpythonunix/share/terminfo/a/altos5
+/snap/google-cloud-cli/233/platform/bundledpythonunix/share/terminfo/a/altos5
+/usr/share/libwacom/intuos5-m.tablet
+/usr/share/libwacom/intuos5-s.tablet
+/usr/share/libwacom/intuos5-touch-l.tablet
+/usr/share/libwacom/intuos5-touch-m.tablet
+/usr/share/libwacom/intuos5-touch-s.tablet
+/usr/share/libwacom/layouts/intuos5-l.svg
+/usr/share/libwacom/layouts/intuos5-m.svg
+/usr/share/libwacom/layouts/intuos5-s.svg
+/usr/share/terminfo/a/altos5
+/usr/src/linux-hwe-5.13-headers-5.13.0-40/include/dt-bindings/clock/exynos5250.h
+/usr/src/linux-hwe-5.13-headers-5.13.0-40/include/dt-bindings/clock/exynos5260-clk.h
+/usr/src/linux-hwe-5.13-headers-5.13.0-40/include/dt-bindings/clock/exynos5410.h
+/usr/src/linux-hwe-5.13-headers-5.13.0-40/include/dt-bindings/clock/exynos5420.h
+/usr/src/linux-hwe-5.13-headers-5.13.0-40/include/dt-bindings/clock/exynos5433.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-107/include/dt-bindings/clock/exynos5250.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-107/include/dt-bindings/clock/exynos5260-clk.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-107/include/dt-bindings/clock/exynos5410.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-107/include/dt-bindings/clock/exynos5420.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-107/include/dt-bindings/clock/exynos5433.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-113/include/dt-bindings/clock/exynos5250.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-113/include/dt-bindings/clock/exynos5260-clk.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-113/include/dt-bindings/clock/exynos5410.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-113/include/dt-bindings/clock/exynos5420.h
+/usr/src/linux-hwe-5.15-headers-5.15.0-113/include/dt-bindings/clock/exynos5433.h
+(base) oslab-19@oslab19-OptiPlex-5060:~$ cd 33187/oslab
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ find os4
+os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ find os6
+find: ‘os6’: No such file or directory
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ grep Operating os3
+Operating...
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ grep System os3
+...System
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ grep Operating os2
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ cd 
+(base) oslab-19@oslab19-OptiPlex-5060:~$ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+udev             3912260        0   3912260   0% /dev
+tmpfs             791876     2212    789664   1% /run
+/dev/sda2      959786032 72590532 838367292   8% /
+tmpfs            3959376    37356   3922020   1% /dev/shm
+tmpfs               5120        4      5116   1% /run/lock
+tmpfs            3959376        0   3959376   0% /sys/fs/cgroup
+/dev/loop0           128      128         0 100% /snap/bare/5
+/dev/loop2         57088    57088         0 100% /snap/core18/2829
+/dev/loop6        167808   167808         0 100% /snap/chromium/2897
+/dev/loop7         67840    67840         0 100% /snap/core24/423
+/dev/loop10        69504    69504         0 100% /snap/cups/1058
+/dev/loop3         76032    76032         0 100% /snap/core22/1380
+/dev/loop4         57088    57088         0 100% /snap/core18/2823
+/dev/loop8         65536    65536         0 100% /snap/core20/2318
+/dev/loop9         65536    65536         0 100% /snap/core20/2264
+/dev/loop16       223744   223744         0 100% /snap/gnome-3-34-1804/93
+/dev/loop13       340992   340992         0 100% /snap/eclipse/87
+/dev/loop12       168832   168832         0 100% /snap/gnome-3-28-1804/198
+/dev/loop11        67712    67712         0 100% /snap/cups/1047
+/dev/loop5         76032    76032         0 100% /snap/core22/1122
+/dev/loop18       223744   223744         0 100% /snap/gnome-3-34-1804/90
+/dev/loop21       508928   508928         0 100% /snap/gnome-42-2204/141
+/dev/loop17       358144   358144         0 100% /snap/gnome-3-38-2004/140
+/dev/loop14       168832   168832         0 100% /snap/gnome-3-28-1804/194
+/dev/loop19       358144   358144         0 100% /snap/gnome-3-38-2004/143
+/dev/loop15       349184   349184         0 100% /snap/eclipse/95
+/dev/loop20       508928   508928         0 100% /snap/gnome-42-2204/132
+/dev/loop24        66816    66816         0 100% /snap/gtk-common-themes/1519
+/dev/loop29        39808    39808         0 100% /snap/snapd/21759
+/dev/loop25        93952    93952         0 100% /snap/gtk-common-themes/1535
+/dev/loop27        12672    12672         0 100% /snap/snap-store/959
+/dev/loop26        13312    13312         0 100% /snap/snap-store/1113
+/dev/loop28       104320   104320         0 100% /snap/weka-james-carroll/51
+/dev/loop23       359808   359808         0 100% /snap/google-cloud-cli/233
+/dev/loop22       359680   359680         0 100% /snap/google-cloud-cli/231
+/dev/loop30        40064    40064         0 100% /snap/snapd/21184
+/dev/sda1         523244    34136    489108   7% /boot/efi
+tmpfs             791872       44    791828   1% /run/user/1000
+/dev/loop31       170240   170240         0 100% /snap/chromium/2905
+/dev/loop32       230400   230400         0 100% /snap/mesa-2404/44
+/dev/loop33       499328   499328         0 100% /snap/gnome-46-2404/26
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ head os3
+Operating...
+...System
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ tail os4
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ tail os2
+...System
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ head os1
+Operating...
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ diff os1 os2
+1c1
+< Operating...
+---
+> ...System
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ diff os1 os3
+1a2
+> ...System
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ diff os2 os3
+0a1
+> Operating...
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ man
+What manual page do you want?
+For example, try 'man man'.
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ man man
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ man tail
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187/oslab$ cd ..
+(base) oslab-19@oslab19-OptiPlex-5060:~/33187$ cd 
+(base) oslab-19@oslab19-OptiPlex-5060:~$ 
+

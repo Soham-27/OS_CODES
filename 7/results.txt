@@ -1,0 +1,6 @@
+Words Count: 1
+ Lines Count: 0
+ Characters Count: 4
+Words Count: 3
+ Lines Count: 0
+ Characters Count: 18
